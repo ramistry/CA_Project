@@ -7,7 +7,7 @@ import re
 
 app = Flask(__name__)
 
-# Load your chatbot models
+#Load your chatbot models and then make
 model_sentence_reader = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 tokenizer = GPT2Tokenizer.from_pretrained('./fine_tuned_gpt2')
 final_model = GPT2LMHeadModel.from_pretrained('./fine_tuned_gpt2')
