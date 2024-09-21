@@ -23,7 +23,7 @@ def extract_relevant_sections(df, keyword):
 def encode_column(column_name):
     return model_sentence_reader.encode(column_name)
 
-# Encode the columns in the dataset
+
 df['embedding'] = df['Name of Accounting Standard'].apply(encode_column)
 df['Trained Response'] = df['Trained Responses'].apply(encode_column)
 
