@@ -13,15 +13,31 @@ In this project, we decided to build such ML model: the Urgency Classifier.
 
 ## 2. Dataset
 
-The dataset used for training and evaluating the urgency classifier model consists of customer support tickets. 
-Each ticket includes a textual description of the issue and a corresponding priority label indicating the urgency of the issue. The dataset is stored in a CSV file with the following columns:
+The dataset used for training and evaluating the Chartered Accountancy question-answering model consists of a collection of textual content related to various topics in the field of CA. The dataset is stored in a CSV file with the following columns:
 
-Ticket Description: A textual description of the customer's issue or request.
-Ticket Priority: The urgency level of the ticket, which can be one of the following categories: "Low", "Medium", "High", "Critical".
+Topic: The category or topic of the question (e.g., "Accounting Standards", "Taxation", "Corporate Law").
+Content: The actual content or description from the dataset (e.g., accounting standard, tax law).
+Question: A relevant question related to the content.
+Answer: The corresponding answer, either model-generated or manually curated.
+
+Example topics include:
+
+Accounting Standards (e.g., IND AS)
+Direct and Indirect Taxation
+Corporate Laws (e.g., Companies Act)
+Auditing Standards
+Financial Management
+Cost and Management Accounting
 
 ## 3. Structure
-* `Files` urgency_classifier.py: The main script for training and evaluating the urgency classifier model. README.md: This readme file.
-* `data` customer_support_tickets.csv data (csv) we used to train model
+The project repository contains the following structure:
+
+* `gpt2_fine_tune.py`: The main script for fine-tuning the GPT-2 model on the Chartered Accountancy dataset.
+inference_webapp.py: A Flask-based web application that allows users to ask questions and get answers from the fine-tuned GPT-2 model.
+* `README.md`: This readme file.
+* `data/`: Contains the dataset in CSV format (chartered_accountancy_dataset.csv), which is used for fine-tuning the model.
+* `models/`: Directory where the fine-tuned GPT-2 model and tokenizer are saved after training.
+
 
 ## 4. Technologies Used and Requirements for Use
 * `Python`
