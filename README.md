@@ -33,7 +33,7 @@ Cost and Management Accounting
 The project repository contains the following structure:
 
 * `gpt2_fine_tune.py`: The main script for fine-tuning the GPT-2 model on the Chartered Accountancy dataset.
-inference_webapp.py: A Flask-based web application that allows users to ask questions and get answers from the fine-tuned GPT-2 model.
+* `inference_webapp.py`: A Flask-based web application that allows users to ask questions and get answers from the fine-tuned GPT-2 model.
 * `README.md`: This readme file.
 * `data/`: Contains the dataset in CSV format (chartered_accountancy_dataset.csv), which is used for fine-tuning the model.
 * `models/`: Directory where the fine-tuned GPT-2 model and tokenizer are saved after training.
