@@ -1,0 +1,32 @@
+AS No.,Name of Accounting Standard,Page Numbers,Trained Responses
+1,Disclosure of Accounting Policies,3-6,The practice of communicating significant accounting principles and methods used in preparing financial statements to ensure transparency and consistency for users.
+2,Valuation of Inventory,7-11,"The method used to assign monetary value to a company’s inventory, often based on cost, market value, or other principles like FIFO (First In, First Out) or LIFO (Last In, First Out)."
+3,Cash Flow Statement,12-20,"A financial report showing the inflows and outflows of cash during a specific period, segmented into operating, investing, and financing activities."
+4,Contingencies and Events Occurring After the Balance Sheet Date,21-25,"Future events or conditions with uncertain outcomes that may affect the financial position, and any significant events occurring after the balance sheet date that require disclosure."
+5,"Net Profit or Loss for the Period, Prior Period Items and Changes in Accounting Policies",26-30,"The process of reporting profit or loss for the period, correcting errors or making adjustments to prior period items, and reporting changes in accounting methods.
+"
+6,Depreciation Accounting,31-35,"The method of allocating the cost of a tangible fixed asset over its useful life to account for wear and tear, consumption, or obsolescence."
+7,Construction Contracts,36-43,"Accounting for revenue and expenses in long-term construction contracts, often using methods like percentage of completion or completed contract method."
+8,Accounting for Research and Development,44,"The treatment of costs related to research and development (R&D), determining which can be capitalized and which must be expensed."
+9,Revenue Recognition,45-49,"The principle determining when and how revenue is recognized in the financial statements, typically when it is earned and realizable."
+10,Accounting for Fixed Assets,50-58,"The process of recording and managing a company’s fixed assets like property, plant, and equipment, including their valuation, depreciation, and disposal."
+11,The Effects of Changes in Foreign Exchange Rates,59-67,Accounting for gains or losses resulting from changes in exchange rates when transactions or balances are denominated in foreign currencies.
+12,Accounting for Government Grants,68-73,"The recognition and reporting of government grants or subsidies in financial statements, typically relating to asset acquisition or expense reimbursement."
+13,Accounting for Investments,74-79,"The valuation and reporting of investments such as stocks, bonds, or real estate in financial statements, often depending on intent (e.g., held-to-maturity or trading)."
+14,Accounting for Amalgamations,80-88,"The process of accounting for the merging of two or more companies, including how assets, liabilities, and reserves are combined."
+15,Accounting for Retirement Benefits in the Financial Statements of Employers,89-95,"The method of accounting for obligations related to employee retirement benefits, including pension plans and gratuity schemes."
+16,Employee Benefits (Revised),96-123,"The accounting treatment for all forms of consideration given to employees in exchange for services rendered, including wages, pensions, and other benefits."
+17,Borrowing Costs,124-127,"Interest and other costs incurred by a company in connection with borrowing funds, with specific guidelines on capitalizing such costs for qualifying assets."
+18,Segment Reporting,128-140,"The disclosure of financial information by business segments, providing insight into the performance of different parts of an organization."
+19,Related Party Disclosures,141-147,"The requirement to disclose transactions and balances with related parties such as subsidiaries, associates, and key management personnel, to prevent conflicts of interest."
+20,Leases,148-158,"The accounting treatment for lease agreements, classifying them as either operating or finance leases, and recording associated assets and liabilities."
+21,Earnings Per Share,159-168,"A measure of profitability calculated by dividing net income by the number of outstanding shares, giving shareholders an idea of the earnings attributed to each share."
+22,Consolidated Financial Statements,169-174,"Financial statements that combine the accounts of a parent company and its subsidiaries, showing the financial position and performance of the entire group as a single entity."
+23,Accounting for Taxes on Income,175-180,"The treatment of current and deferred tax liabilities and assets in financial statements, considering tax laws and rates applicable."
+24,Accounting for Investments in Associates in Consolidated Financial Statements,181-185,"The equity method of accounting used to reflect a company’s investment in associates, where it has significant influence but not control."
+25,Discontinuing Operations,186-191,"The accounting and disclosure requirements for a business segment that is being sold or terminated, with separate reporting of its financial performance."
+26,Interim Financial Reporting,192-198,"The preparation and presentation of financial statements for shorter periods than a full fiscal year, typically quarterly or semi-annually."
+27,Intangible Assets,199-215,"Non-physical assets such as goodwill, patents, and trademarks, which are amortized over their useful lives or tested for impairment."
+28,Financial Reporting of Interests in Joint Ventures,216-224,"The method of accounting for investments in joint ventures, where two or more parties share control over an entity."
+29,Impairment of Assets,225-244,"The process of testing assets for impairment when their carrying amount exceeds their recoverable amount, resulting in a write-down."
+30,"Provisions, Contingent Liabilities, and Contingent Assets",245-254,"Guidelines for recognizing and measuring liabilities or assets that depend on uncertain future events, with provisions made for probable liabilities and contingent liabilities/contingent assets disclosed.
