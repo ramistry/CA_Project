@@ -2,11 +2,10 @@
 
 ## 1. Background and Motivation
 <br />
-<br />
 The field of Chartered Accountancy (CA) requires professionals and students to navigate through complex questions related to accounting standards, taxation laws, financial management, and corporate regulations. For CA students and professionals, finding accurate answers to these questions can be challenging, especially when dealing with large volumes of regulatory material.
-
-In this project, we aim to build a robust machine learning model that can answer questions related to Chartered Accountancy. By fine-tuning GPT-2 (Generative Pre-trained Transformer 2), we aim to develop a model that understands the intricacies of this domain and provides relevant answers to a wide range of CA-related queries. The model will be trained on a dataset containing content from official documents, accounting standards, tax regulations, and other sources, and will be capable of generating accurate, contextually appropriate answers.
 <br />
+<br />
+In this project, we aim to build a robust machine learning model that can answer questions related to Chartered Accountancy. By fine-tuning GPT-2 (Generative Pre-trained Transformer 2), we aim to develop a model that understands the intricacies of this domain and provides relevant answers to a wide range of CA-related queries. The model will be trained on a dataset containing content from official documents, accounting standards, tax regulations, and other sources, and will be capable of generating accurate, contextually appropriate answers.
 <br />
 In this project, we decided to build such ML model: the Urgency Classifier.
 
