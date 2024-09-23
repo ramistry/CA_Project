@@ -7,13 +7,14 @@ import re
 
 app = Flask(__name__)
 
-#Load your chatbot models and then make
+
 model_sentence_reader = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 tokenizer = GPT2Tokenizer.from_pretrained('./fine_tuned_gpt2')
 final_model = GPT2LMHeadModel.from_pretrained('./fine_tuned_gpt2')
 
 
 df = pd.read_csv('accounting_standards_fixed.csv')
+
 
 def extract_relevant_sections(df, keyword):
     keyword = keyword.lower()
@@ -28,7 +29,7 @@ df['embedding'] = df['Name of Accounting Standard'].apply(encode_column)
 df['Trained Response'] = df['Trained Responses'].apply(encode_column)
 
 def generate_response(user_query):
-    # Process the query and find the relevant response
+
     keyword = re.search(r'\b(audit|tax|accounting)\b', user_query.lower())
     
     if keyword:
