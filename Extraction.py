@@ -38,10 +38,13 @@ def generate_response(user_query):
         relevant_df = df
     
     user_embedding = model_sentence_reader.encode(user_query)
+    #might need to split lambda function and create separate one
     relevant_df['similarity'] = relevant_df['embedding'].apply(lambda x: cosine_similarity([user_embedding], [x]).flatten()[0])
     most_similar_row = relevant_df.loc[relevant_df['similarity'].idxmax()]
 
+    #need to edit test csv for this
     prompt = f"Explain the following accounting standard: {most_similar_row['Name of Accounting Standard']}"
+
     
     input_ids = tokenizer.encode(prompt, return_tensors='pt')
     attention_mask = (input_ids != tokenizer.pad_token_id).long()
